@@ -1,0 +1,19 @@
+{
+    "name": "piyushchauhan/new-theme",
+    "autoload": {
+        "psr-4": {
+            "Piyushchauhan\\NewTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piyush Chauhan",
+            "email": "piyushchauhan2011@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "php-stubs/wordpress-tests-stubs": "^6.2",
+        "phpunit/phpunit": "^9.0",
+        "yoast/phpunit-polyfills": "^2.0"
+    }
+}

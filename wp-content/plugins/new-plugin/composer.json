@@ -1,0 +1,19 @@
+{
+    "name": "piyushchauhan/new-plugin",
+    "autoload": {
+        "psr-4": {
+            "Piyushchauhan\\NewPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piyush Chauhan",
+            "email": "piyushchauhan2011@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "yoast/phpunit-polyfills": "^2.0",
+        "phpunit/phpunit": "^9.0",
+        "php-stubs/wordpress-tests-stubs": "^6.2"
+    }
+}
