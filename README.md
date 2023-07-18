@@ -26,7 +26,7 @@ npm install # node v16 and npm v7 are required for this to work
 
 npm run build
 
-bash ./vendor/bin/install-wp-tests.sh wp_dev root '' localhost latest # to install the test database
+bash ./vendor/bin/install-wp-tests.sh wp_dev_test root '' localhost latest # to install the test database
 
 # check wordpress-tests-lib/ folder exists and has data and includes folder
 # if not delete folders <temp-path>/wordpress and <temp-path>/wordpress-tests-lib, temp-path is the path returned by the install-wp-tests.sh script
